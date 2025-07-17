@@ -1,0 +1,47 @@
+Assignment-1 – Student.java
+public class Student {
+    private String studentName;
+    private String collegeName;
+    private int studentId;
+
+    public static void main(String[] args) {
+        System.out.println("Successful");
+    }
+}
+
+javac Student.java
+java Student
+
+
+Assignment-2 – Employee.java
+public class Employee {
+    protected int id;
+    protected int age;
+    protected String name;
+    protected boolean isPermanent;
+
+    public static void main(String[] args) {
+        Employee emp = new Employee();
+        emp.age = (int) 35.5; 
+        System.out.println("Successfully started");
+    }
+}
+
+javac Employee.java
+
+
+Assignment-3 – Person.java
+package com.anudip.learning;
+
+public class Person {
+    String name = "John";
+    int age = 25;
+    int salary = 50000;
+
+    public static void main(String[] args) {
+        System.out.println("Test Successful");
+    }
+}
+
+javac com/anudip/learning/Person.java
+java com.anudip.learning.Person
